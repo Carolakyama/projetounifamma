@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--titulo do site-->
+        <title>Focus - Kripton</title>
+        
+        <!--Meta tags do site-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Kripton Flavy">
+        <meta name="Keywords" content="site,potifolio,apresentação,landing,html,css,js">
+        <meta name="Description" content="Este é mais um site Modelo para a serie ">
+
+        <!--links do site-->
+        <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2019/02/09/15/28/wolf-3985358__340.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/effects.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+        <!--Script das Figuras-->
+        <script src="https://kit.fontawesome.com/c49e0b56e6.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Titulo do site-->
+
+        <header>
+            <div class="opacity"></div><!--opacity-->
+            <div class="container">
+
+                <div class="menu">
+                        
+                    <div class="logo">
+                        <a href="index.html">
+                            <h1>FOCUS</h1>
+                        </a>
+                    </div><!--logo-->
+
+                    <!--menu desktop-->
+                    <nav class="menu_desktop">
+                        <ul>
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#sobre">ABOUT</a></li>
+                            <li><a href="#time">TEAM</a></li>
+                            <li><a href="#servicos">SERVICES</a></li>
+                            <li><a href="#precos">PRICING</a></li>
+                            <li><a href="#contato">CONTACT</a></li>
+                            <li><a href="" class="discover">DISCOVER</a></li>
+                        </ul>
+                    </nav><!--menu desktop-->
+
+                    <!--menu mobile-->
+                    <nav class="menu_mobile">
+
+                        <h2 class="ativa"><i class="fa-solid fa-bars"></i></h2>
+
+                        <ul>
+
+                            <h2 class="desativa"><i class="fa-solid fa-x"></i></h2>
+
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#sobre">ABOUT</a></li>
+                            <li><a href="#time">TEAM</a></li>
+                            <li><a href="#servicos">SERVICES</a></li>
+                            <li><a href="#precos">PRICING</a></li>
+                            <li><a href="#contato">CONTACT</a></li>
+                            <li><a href="" class="discover">DISCOVER</a></li>
+                        </ul>
+                    </nav><!--menu mobile-->
+                </div><!--menu-->
+
+                <div class="text-banner">
+                    <h2>FAZEMOS UM TRABALHO MARAVILHOSO</h2>
+                    <h1>BEM-VINDO AO APP FOCUS</h1>
+                    <h3>Lorem Ipsum etsum lacus etsumis nulatis etsumisedvitae etimuned  <br> nisle
+                        varius loremis feugiat etis netsum</h3>
+                </div><!--text banner-->
+            
+            </div><!--container-->
+        </header>
+        
+        <!--Features Section-->
+        <section class="features" id="home">
+            <div class="container">
+
+                <div class="text">
+                    <h1>Recursos Incríveis</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+                <div class="features-content">
+
+                    <div class="features-wraper">
+                        <div class="features-single">
+
+                            <div class="feat-img">
+                                <h2><i class="fa fa-cogs hi-icon"></i></h2>
+                            </div><!--feat img-->
+                            <div class="feat-txt">
+                                <h3>Totalmente Responsivo</h3>
+                                <p>Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+                            </div><!--feat txt-->
+
+                        </div><!--features single-->
+                    </div><!--features wraper-->
+
+                    <div class="features-wraper">
+                        <div class="features-single">
+
+                            <div class="feat-img">
+                                <h2><i class="fa fa-clone hi-icon"></i></h2>
+                            </div><!--feat img-->
+                            <div class="feat-txt">
+                                <h3>Totalmente Responsivo</h3>
+                                <p>Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+                            </div><!--feat txt-->
+
+                        </div><!--features single-->
+                    </div><!--features wraper-->
+                    
+                    <div class="features-wraper">
+                        <div class="features-single">
+
+                            <div class="feat-img">
+                                <h2><i class="fa fa-thumbs-o-up hi-icon"></i></h2>
+                            </div><!--feat img-->
+                            <div class="feat-txt">
+                                <h3>Totalmente Responsivo</h3>
+                                <p>Curabitur quam etsum lacus etsumis nulat iaculis ets vitae etsum nisle varius sed aliquam ets vitae dictis netsum.</p>
+                            </div><!--feat txt-->
+
+                        </div><!--features single-->
+                    </div><!--features wraper-->
+
+                </div><!--features contet-->
+
+            </div><!--container-->
+        </section><!--features-->
+        
+        <!--section Device-->
+        <section class="devices" id="sobre">
+            <div class="container">
+
+                <div class="device_single">
+                    
+                    <div class="device_img">
+                        <img src="images/telefons/iphones-left.png" alt="">
+                    </div><!--device img-->
+
+                    <div class="device_txt">
+                        <h2>Dispositivos Moveis</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam non consectetur tenetur rerum iusto ea! Labore dolores quae totam possimus, nihil placeat tempora quasi alias dolor, hic minus inventore.</p>
+                        <p class="blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quam atque aliquid corporis, inventore iusto deleniti ducimus qui, vero aut quo hic exercitationem. Quos ex a qui dicta, aliquam voluptatibus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ullam quas commodi vero similique aspernatur numquam incidunt sunt, modi eum, unde, provident veniam quia. Natus cupiditate eum illo in neque.</p>
+                    
+                        <button>
+                            <i class="fa-solid fa-cloud-arrow-down" style="font-size: 18px; padding: 0 5px;"></i> FREE VERSION
+                        </button>
+                    </div><!--device txt-->
+
+                </div><!--device single-->
+
+                <div class="device_single">
+                    
+                    
+                    <div class="device_img">
+                        <img src="images/telefons/iphones-right.png" alt="">
+                    </div><!--device img-->
+
+                    <div class="device_txt">
+                        <h2>Dispositivos Moveis</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam non consectetur tenetur rerum iusto ea! Labore dolores quae totam possimus, nihil placeat tempora quasi alias dolor, hic minus inventore.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quam atque aliquid corporis, inventore iusto deleniti ducimus qui, vero aut quo hic exercitationem. Quos ex a qui dicta, aliquam voluptatibus.</p>
+
+                        <p class="icon"><i class="fa-solid fa-check"></i>Lorem ipsum dolor sit ametcon sectetur adipiscingelit</p>
+                        <p class="icon"><i class="fa-solid fa-check"></i>Wisi enim ad minim veniam nostrud net exercites.</p>
+                        <p class="icon"><i class="fa-solid fa-check"></i>Neque etim net quis autem velis reprehenderit.</p>
+                        <p class="icon"><i class="fa-solid fa-check"></i>Quia voluptas sit aspernatur netsum fugit.</p>
+                        <p class="icon"><i class="fa-solid fa-check"></i>Dipsam voluptatem quia volupti tempor.</p>
+                    </div><!--device txt-->
+
+                </div><!--device single-->
+
+            </div><!--container-->
+        </section><!--devices-->
+
+        <!--section Newsletter-->
+        <section class="newsletter">
+            <div class="opacity"></div>
+            <div class="container">
+
+                <form   
+                action="https://formspree.io/f/mdobwowz"
+                method="POST"
+                >
+
+                    <h2>Viu o suficiente? Estamos atualmente no beta fechado. Digite seu e-mail para entrar na lista de espera.</h2>
+                   
+                    <div class="text">
+                        <input type="email" placeholder="Insira Seu Email..">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div><!--text-->
+
+                </form><!--form-->
+
+            </div><!--container-->
+        </section><!--newsletter-->
+
+        <!--sessão do time-->
+        <section class="time" id="time">
+            <div class="container">
+
+                <div class="text">
+                    <h1>Recursos Incríveis</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+                <div class="time-content">
+
+                    <div class="time-wraper">
+                        <div class="time-single">
+                            <img src="images/person/team1.jpg" alt="">
+                            <div class="text-time">
+                                <h3>Domminic Toretto</h3>
+                                <p>Web Designer</p>
+                                <div class="redes">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                </div><!--redes-->
+                            </div><!--text time-->
+                        </div><!--time single-->
+                    </div><!--time wraper-->
+
+                    <div class="time-wraper">
+                        <div class="time-single">
+                            <img src="images/person/team2.jpg" alt="">
+                            <div class="text-time">
+                                <h3>Marcos Mion</h3>
+                                <p>developer</p>
+                                <div class="redes">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                </div><!--redes-->
+                            </div><!--text time-->
+                        </div><!--time single-->
+                    </div><!--time wraper--> 
+                    
+                    <div class="time-wraper">
+                        <div class="time-single">
+                            <img src="images/person/team3.jpg" alt="">
+                            <div class="text-time">
+                                <h3>Mary Cooper</h3>
+                                <p>CEO</p>
+                                <div class="redes">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                </div><!--redes-->
+                            </div><!--text time-->
+                        </div><!--time single-->
+                    </div><!--time wraper-->
+                
+                    <div class="time-wraper">
+                        <div class="time-single">
+                            <img src="images/person/team4.jpg" alt="">
+                            <div class="text-time">
+                                <h3>Rose Washington</h3>
+                                <p>Co-Founder</p>
+                                <div class="redes">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                                </div><!--redes-->
+                            </div><!--text time-->
+                        </div><!--time single-->
+                    </div><!--time wraper-->
+
+                </div><!--time content-->
+
+            </div><!---container-->
+        </section><!--time-->
+
+        <!--services section-->
+        <section class="services" id="servicos">
+            <div class="container">
+                
+                <div class="text">
+                    <h1>Nossos Serviços</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+                <div class="cell">
+                    <img src="images/telefons/iphone-features2.png" alt="">
+                </div><!--cell-->
+
+                <div class="service-cont">
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                                <span>Supporte 24/7</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Uso Amigavel</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-solid fa-bell"></i>
+                                <span>Notifications</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-brands fa-rocketchat"></i>
+                                <span>Chat Com Amigos</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <span>Acessibilidade</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="serv-wrper">
+                        <div class="serv-single">
+                            <div class="serv-img">
+                                <i class="fa-solid fa-piggy-bank"></i>
+                                <span>Controle de Custo</span>
+                            </div>
+                            <div class="serv-txt">
+                                <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div><!--container-->
+        </section><!--services-->
+
+        <!--sessão dos paises-->
+        <section class="paises">
+            <div class="container">
+
+                <div class="igm">
+                    <img src="images/person/image-section.jpg" alt="">
+                </div><!--igm-->
+
+               <div class="asks">
+                    <div class="txt">
+                        <p><i class="fa-solid fa-rocket"></i> Este Site Funciona em Todos os Países?</p>
+                        <hr>
+                        <p class="resposta busca">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi eum quia voluptates voluptas labore tempora consectetur, dolore quas blanditiis, excepturi dolorum qui dolores cupiditate</p>
+                    </div><!--txt-->
+                
+                    <div class="txt">
+                        <p><i class="fa-solid fa-trophy"></i> Como posso gerenciar ou interromper as notificações que recebo?</p>
+                        <hr>
+                        <p class="resposta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi eum quia voluptates voluptas labore tempora consectetur, dolore quas blanditiis, excepturi dolorum qui dolores cupiditate! </p>
+                    </div><!--txt-->
+                
+                    <div class="txt">
+                        <p><i class="fa-solid fa-house-laptop"></i> Posso usar a assinatura em mais de um dispositivo?</p>
+                        <hr>
+                        <p class="resposta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi eum quia voluptates voluptas labore tempora consectetur, dolore quas blanditiis, excepturi dolorum qui dolores cupiditate! </p>
+                    </div><!--txt-->
+                
+                    <div class="txt">
+                        <p><i class="fa-solid fa-leaf"></i>Posso usar a assinatura em mais de um dispositivo?</p>
+                        <hr style="color: aqua;">
+                        <p class="resposta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse commodi eum quia voluptates voluptas labore tempora consectetur, dolore quas blanditiis, excepturi dolorum qui dolores cupiditate! </p>
+                    </div><!--txt-->
+               </div><!--asks-->
+
+            </div><!--container-->
+        </section><!--paises-->
+
+        <!--section discover-->
+        <section class="discover">
+            <div class="container">
+
+                <div class="text">
+                    <h1>Descubra recursos extras</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+  
+                <div class="discover-all">
+
+                    <div class="img-info">
+                        <img src="/images/telefons/iphone-features3.png" alt="">
+                    </div>
+
+                    <div class="discover-cont">
+
+                        <div class="discover-wrper">
+                            <div class="discover-single">
+                                <div class="discover-img">
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                                    <span>Supporte 24/7</span>
+                                </div><!--discover img-->
+                                <div class="discover-txt">
+                                    <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                                </div><!--discover ttxt-->
+                            </div><!--discover single-->
+                        </div><!--discover wraper-->
+    
+                        <div class="discover-wrper">
+                            <div class="discover-single">
+                                <div class="discover-img">
+                                    <i class="fa-solid fa-bell"></i>
+                                    <span>Notifications</span>
+                                </div><!--discover img-->
+                                <div class="discover-txt">
+                                    <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                                </div><!--discover txt-->
+                            </div><!--discover single-->
+                        </div><!--discover wraper-->
+    
+                        <div class="discover-wrper">
+                            <div class="discover-single">
+                                <div class="discover-img">
+                                    <i class="fa-brands fa-rocketchat"></i>
+                                    <span>Chat Com Amigos</span>
+                                </div><!--discover img-->
+                                <div class="discover-txt">
+                                    <p>Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat, wisi ad minim.</p>
+                                </div><!--discover txt-->
+                            </div><!--discover single-->
+                        </div><!--discover wraper-->
+    
+                    </div><!--discover cont-->
+                </div><!--discover all-->
+
+            </div><!--container-->
+        </section><!--discover-->
+
+        <!--sessão banner watch -->
+
+        <section class="watch">
+            <div class="opacity"></div><!--opacity-->
+            
+            <div class="container">
+
+                <a href="https://www.youtube.com/watch?v=dB6mPGLj2J8&list=RDMMS8iYNNpKvCw&index=12" target="_blank">
+                    <button>  
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </a>
+                <h1>Assista ao nosso vídeo com recursos incríveis</h1>
+
+            </div><!--container-->
+        </section><!--watch-->
+
+        <!--sessão dos preços-->
+
+        <section class="precos" id="precos">
+            <div class="container">
+
+                <div class="text">
+                    <h1>Ótimos Preços</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+                <div class="precos-cont">
+
+                    <div class="precos-wraper">
+                        <div class="precos-single">
+                            <h3>STANDARD</h3>
+                            <h1>$12</h1>
+                            <p>6 Months</p>
+                            <button>GET STARTED</button>
+                            <p>50 Gb Bandwidth</p>
+                            <p>10 Themes</p>
+                        </div><!--precos single-->
+                    </div><!--precos cont-->
+
+                    <div class="precos-wraper">
+                        <div class="precos-single blu">
+                            <h3>SILVER</h3>
+                            <h1>$20</h1>
+                            <p>12 Months</p>
+                            <button>GET STARTED</button>
+                            <p>200 Gb Bandwidth</p>
+                            <p>Unlimited Experiences</p>
+                        </div><!--precos single-->
+                    </div><!--precos cont-->
+
+                    <div class="precos-wraper">
+                        <div class="precos-single">
+                            <h3>GOLD</h3>
+                            <h1>$99</h1>
+                            <p>Unlimited</p>
+                            <button>GET STARTED</button>
+                            <p>Unlimited Bandwidth</p>
+                            <p>All Experiences</p>
+                        </div><!--precos single-->
+                    </div><!--precos cont-->
+
+                </div><!--precos cont-->
+
+            </div><!--container-->
+        </section><!--precos-->
+
+        <!--banner download-->
+        <section class="download">
+            <div class="opacity"></div><!--opacity-->
+            <div class="container">
+
+                <div class="text">
+                    <h1 style="color: white;">Ótimos Preços</h1>
+                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+                <div class="so">
+                   
+                    <div class="so-wr">
+                        <div class="so-cont">
+                            <button><i class="fa-brands fa-apple"></i>  IOS</button>
+                        </div><!--so cont-->
+                    </div><!--so wr-->
+
+                    <div class="so-wr">
+                        <div class="so-cont">
+                            <button><i class="fa-brands fa-windows"></i>  WINDOWS</button>
+                        </div><!--so cont-->
+                    </div><!--so wr-->
+
+                    <div class="so-wr">
+                        <div class="so-cont">
+                            <button><i class="fa-brands fa-linux"></i>  LINUX</button>
+                        </div><!--so cont-->
+                    </div><!--so wr-->
+                
+                </div><!--so-->
+
+            </div><!--container-->
+        </section><!--download-->
+
+        <!-- Form -->
+
+        <section class="contact" id="contato">
+            <div class="container">
+
+                <div class="text">
+                    <h1 style="color: white;">Ótimos Preços</h1>
+                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet qui optio dolores molestiae accusamus praesentium totam maxime laudantium dolor iste!</p>
+                </div><!--text-->
+
+
+                <form
+                action="https://formspree.io/f/mdobwowz"
+                method="POST"
+                >
+
+                    <div class="form-flut">
+                        <div class="w100">
+                            <input type="text" name="nome" placeholder="Digite seu Nome..">
+                            <input type="email" name="email" placeholder="Digite seu Email..">
+                            <input type="number" name="numero" placeholder="Digite seu Numero..">
+                        </div>
+    
+                        <div class="w50">
+                            <textarea name="Mensagem" placeholder="Deixe Sua Mensagem.."></textarea>
+                        </div>
+                    </div>
+                    
+                    <input type="submit" value="Enviar">
+
+                </form>
+
+            </div>
+        </section> <!--contact-->
+
+        <footer>
+            <div class="container">
+                <span><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" target="_blank"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a> <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+                <p>Todos os Direitos Reservados - 2022 </p>
+                <p>feito com amor por KriptonFlavy <i class="fa-solid fa-laptop-code"></i></p>
+            </div><!--container-->
+        </footer>
+
+
+        <!--scripts internos do site-->
+        <script src="javascript/script.js"></script>
+    </body>
+</html>
